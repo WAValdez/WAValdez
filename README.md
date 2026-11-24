@@ -1,50 +1,63 @@
 <div align="center">
 
-# 🕷️ Winder Valdez
-### **IT Infrastructure & Cybersecurity | Vulnerability Management · Hardening · Network Defense**
+<!-- ================= HEADER ================= -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=175&section=header&text=WINDER%20VALDEZ&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Spider-Sec%20%7C%20IT%20Infrastructure%20%26%20Defensive%20Engineering&descAlignY=58&descAlign=50" width="100%" />
 
-*"Un gran acceso conlleva una gran responsabilidad."*  
-**Detectando exposiciones antes de que se conviertan en incidentes · Blindando sistemas críticos**
+<br>
 
-[![Vulnerability Mgmt](https://img.shields.io/badge/Vulnerability_Mgmt-Nessus-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)](#repositorios-destacados-spider-labs)
-[![Windows Hardening](https://img.shields.io/badge/Hardening-Windows_Server_%26_GPO-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)](#repositorios-destacados-spider-labs)
-[![Patch Mgmt](https://img.shields.io/badge/Patch_Mgmt-WSUS-0F172A?style=for-the-badge)](#repositorios-destacados-spider-labs)
-[![Network Sec](https://img.shields.io/badge/Network_Sec-L2_AP_%26_WPA2--AES-DC2626?style=for-the-badge)](#repositorios-destacados-spider-labs)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=DC2626&center=true&vCenter=true&repeat=true&width=760&lines=Spider-Sense+Active%3A+Vulnerability+Management+%26+Hardening;Windows+Server+%2B+GPO+%2B+Credential+Guard;Centralized+Patching+(WSUS)+%26+L2+Network+Defense;Turning+Exposed+Attack+Surfaces+into+Resilient+Systems)](https://git.io/typing-svg)
+
+<br>
+
+> *"Un gran acceso conlleva una gran responsabilidad."*  
+> **Enfoque dual:** Estabilidad operativa de **TI** + Reducción rigurosa de riesgo en **Ciberseguridad**.
+
+<br>
+
+![Windows Server](https://img.shields.io/badge/Windows_Server-Hardening_%26_GPO-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)
+![Nessus](https://img.shields.io/badge/Vulnerability_Mgmt-Nessus-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)
+![WSUS](https://img.shields.io/badge/Patch_Control-WSUS-111827?style=for-the-badge)
+![Network](https://img.shields.io/badge/Network_Security-L2_AP_%26_WPA2--AES-991B1B?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🕸️ Sentido Arácnido Operativo (Sobre mí)
+## 🕸️ Spider-Bio: ¿Por qué TI + Ciberseguridad en un mismo perfil?
 
-A los líderes de **TI** les importa la **estabilidad, continuidad y control**; a los de **Ciberseguridad** les importa la **reducción de superficie de ataque, visibilidad y remediación real**. Mi trabajo vive exactamente en esa intersección.
+La mayoría de los perfiles se quedan en un extremo: **administran sistemas sin pensar en el atacante** o **reportan vulnerabilidades sin entender cómo opera una red en producción**. Yo trabajo justo en el punto donde ambos mundos chocan:
 
-En lugar de quedarme en teoría, construyo y documento laboratorios enfocados en cómo se protege una red en la vida real: **identificar fallos con criterio, endurecer endpoints y servidores, controlar parches y asegurar la capa de red** sin romper la operación.
-
-- 🎯 **Gestión de Vulnerabilidades:** Escaneo, priorización y validación de remediación con **Nessus**, cerrando brechas de forma medible.
-- 🛡️ **Hardening de Sistemas:** Mitigación de robo de credenciales mediante **Credential Guard**, control de medios extraíbles por **GPO** y endurecimiento de **Windows Server**.
-- 🔄 **Control de Parches & Red:** Despliegue estructurado vía **WSUS** y *hardening* de infraestructura local (conversión de **ONT Huawei HG8546M a AP en Capa 2**, prevención de conflictos **IPv4** y migración de cifrado débil **TKIP** hacia **WPA2-AES**).
+* 🕷️ **Detección con criterio (Nessus):** No se trata de exportar PDFs gigantes, sino de identificar exposiciones reales, priorizar según riesgo y validar que la remediación cerró el problema.
+* 🛡️ **Endurecimiento real de hosts:** Implementación de **Credential Guard** para aislar secretos en memoria, restricción de almacenamiento extraíble por **GPO** y *hardening* de **Windows Server**.
+* 📦 **Control de cambios y parches:** Gestión centralizada mediante **WSUS** para mantener los sistemas actualizados con orden, minimizando ventanas de exposición e interrupciones operativas.
+* 📡 **Defensa en Capa 2 y perímetro local:** Reutilización y *hardening* de una **ONT Huawei HG8546M** como **AP en Capa 2**, mitigación de conflictos **IPv4** y migración de cifrado débil **TKIP** hacia **WPA2-AES**.
 
 ---
 
-## 🗺️ Topología de Defensa & Operación (Spider-Grid)
+## 🗺️ Arquitectura Operativa & Defensa (Spider-Grid)
 
 ```mermaid
-flowchart LR
-    subgraph Perimeter["🌐 Perímetro & Red Local (L2 / Wi-Fi)"]
-        ONT["ONT Huawei HG8546M<br/>Modo AP Capa 2 · WPA2-AES<br/>Control IPv4 (Sin TKIP)"]
+flowchart TB
+    classDef spiderRed fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#ffffff;
+    classDef itBlue fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
+    classDef darkSec fill:#111827,stroke:#dc2626,stroke-width:2px,color:#f9fafb;
+    classDef auditBox fill:#31102f,stroke:#f43f5e,stroke-width:2px,color:#ffffff;
+
+    subgraph PERIMETER["🌐 CAPA PERIMETRAL Y RED LOCAL (L2 / WI-FI)"]
+        AP["📡 ONT Huawei HG8546M en Modo AP (Capa 2)<br/>Eliminación de TKIP → WPA2-AES<br/>Control y prevención de conflictos IPv4"]:::spiderRed
     end
 
-    subgraph Core["🖥️ Infraestructura & Hardening"]
-        WSUS["WSUS Server<br/>Distribución Controlada de Parches"]
-        WIN["Windows Server Hardened<br/>Credential Guard · Políticas GPO<br/>Control USB / Almacenamiento"]
+    subgraph INFRA["🖥️ CAPA DE INFRAESTRUCTURA Y HARDENING"]
+        WSUS["📦 WSUS Server<br/>Distribución Controlada de Parches"]:::itBlue
+        WINS["🛡️ Windows Server Hardened<br/>Credential Guard · Políticas GPO<br/>Control de Almacenamiento Extraíble"]:::itBlue
     end
 
-    subgraph Assurance["🕷️ Sentido Arácnido: Auditoría & Cumplimiento"]
-        NESSUS["Nessus Scanner<br/>Detección · Priorización · Verificación"]
+    subgraph ASSURANCE["🕷️ SENTIDO ARÁCNIDO: AUDITORÍA Y CUMPLIMIENTO"]
+        NESSUS["🎯 Nessus Vulnerability Management<br/>Escaneo · Priorización · Verificación Post-Hardening"]:::auditBox
     end
 
-    Perimeter --> Core
-    NESSUS -. "Escaneo & Validación" .-> Core
-    NESSUS -. "Evaluación de Exposición" .-> Perimeter
-    WSUS -. "Parches de Seguridad" .-> WIN
+    AP -->|"Tráfico Segmentado / Capa 2"| WINS
+    WSUS -->|"Despliegue Controlado de Actualizaciones"| WINS
+    NESSUS -.->|"1. Detección de Exposiciones"| WINS
+    NESSUS -.->|"2. Evaluación de Red y Hosts"| AP
+    WINS -.->|"3. Remediación Aplicada"| NESSUS
