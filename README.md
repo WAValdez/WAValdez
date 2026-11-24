@@ -1,54 +1,108 @@
 <div align="center">
 
-# 🕷️ WINDER VALDEZ
-### **Spider-Sec & IT Infrastructure Engineer**
-`Vulnerability Management` · `Windows Server & GPO Hardening` · `WSUS Patching` · `L2 / Wi-Fi Security`
 
-> *"Un gran acceso conlleva una gran responsabilidad."*  
-> **Estabilidad operativa de TI + Reducción rigurosa de superficie de ataque en Ciberseguridad.**
 
-[![Hardening](https://img.shields.io/badge/Windows_Hardening-Credential_Guard_%26_GPO-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)](#repositorios-principales)
-[![Vuln Mgmt](https://img.shields.io/badge/Vulnerability_Mgmt-Nessus-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)](#repositorios-principales)
-[![Patching](https://img.shields.io/badge/Patch_Control-WSUS-111827?style=for-the-badge)](#repositorios-principales)
-[![Network](https://img.shields.io/badge/Network_Sec-L2_AP_%26_WPA2--AES-991B1B?style=for-the-badge)](#repositorios-principales)
+# 🕷️ Winder Valdez — Spider-Sec & IT Infrastructure
+
+
+
+**Sentido arácnido activado para vulnerabilidades, sistemas Windows y redes.**
+
+*"Un gran acceso conlleva una gran responsabilidad."*
+
+
+
+[![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)](#)
+
+[![Windows & Infra](https://img.shields.io/badge/Focus-Windows%20Server%20%26%20IT-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)](#)
+
+[![Network Hardening](https://img.shields.io/badge/Network-Hardening%20%26%20Patching-DC2626?style=for-the-badge)](#)
+
+
 
 </div>
 
----
 
-## 🕸️ Spider-Bio: Enfoque Operativo y Defensivo
-
-Muchos perfiles separan la **administración de TI** de la **ciberseguridad**. En la práctica, la seguridad real ocurre cuando quien endurece un sistema o configura una red entiende el impacto operativo, la continuidad del negocio y el comportamiento de un atacante.
-
-* 🎯 **Gestión de Vulnerabilidades (Nessus):** Identificación de exposiciones, priorización por riesgo, aplicación de *hardening* y verificación de cumplimiento.
-* 🛡️ **Endurecimiento de Sistemas (Windows Server & GPO):** Aislamiento de credenciales con **Credential Guard**, control de dispositivos de almacenamiento extraíble por **GPO** y refuerzo de configuraciones críticas.
-* 📦 **Control de Parches (WSUS):** Distribución centralizada y controlada de actualizaciones de seguridad para reducir ventanas de exposición sin comprometer la estabilidad.
-* 📡 **Seguridad de Red Local y Capa 2:** Reutilización y *hardening* de una **ONT Huawei HG8546M** como **AP en Capa 2**, mitigación de conflictos **IPv4** y migración de cifrado débil **TKIP** hacia **WPA2-AES**.
 
 ---
 
-## 🗺️ Arquitectura de Defensa y Control (Spider-Grid)
 
-```mermaid
-flowchart LR
-    classDef red fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#ffffff;
-    classDef sys fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#ffffff;
-    classDef sec fill:#18181b,stroke:#f43f5e,stroke-width:2px,color:#ffffff;
 
-    subgraph EDGE["🌐 Red Local y Perímetro"]
-        AP["📡 ONT Huawei HG8546M<br/>Modo AP Capa 2 · WPA2-AES<br/>Control IPv4 (Sin TKIP)"]:::red
-    end
+## 🕸️ Sobre mí (Spider-Bio)
 
-    subgraph CORE["🖥️ Infraestructura y Hardening"]
-        WSUS["📦 WSUS<br/>Parches Controlados"]:::sys
-        WIN["🛡️ Windows Server Hardened<br/>Credential Guard · GPO · USB Control"]:::sys
-    end
 
-    subgraph AUDIT["🕷️ Verificación y Riesgo"]
-        NESSUS["🎯 Nessus<br/>Detección · Remediación · Cumplimiento"]:::sec
-    end
 
-    EDGE -->|"Tráfico Segmentado"| CORE
-    WSUS -->|"Actualizaciones"| WIN
-    NESSUS -.->|"Escaneo y Validación"| CORE
-    NESSUS -.->|"Evaluación de Exposición"| EDGE
+Profesional de **TI y Ciberseguridad** enfocado en reducir la superficie de ataque, endurecer sistemas corporativos y mantener la infraestructura segura y operativa. Así como Spider-Man protege cada rincón de su red, combino **gestión de vulnerabilidades**, **hardening de Windows Server**, **administración de parches** y **seguridad de red** para construir entornos resilientes[cite: 1].
+
+
+
+🛡️ **Vulnerabilidades & Cumplimiento:** Detección con Nessus, remediación y verificación de cumplimiento[cite: 1].
+🖥️ **Hardening & Sistemas:** Aislamiento de credenciales (*Credential Guard*), políticas GPO y administración de Windows Server[cite: 1].
+🌐 **Seguridad de Red & Parches:** Distribución controlada con WSUS y *hardening* de red local / puntos de acceso[cite: 1].
+
+
+---
+
+
+
+## 🛠️ Telaraña Técnica (Tech Stack & Arsenal)
+
+
+
+| Categoría | Herramientas / Tecnologías | Rol en la "Red" |
+
+| :--- | :--- | :--- |
+
+| **Sistemas & GPO** | Windows Server, Group Policy (GPO), Credential Guard | Blindaje de hosts y control de accesos[cite: 1] |
+
+| **Vulnerabilidades & Parches** | Nessus, WSUS, Auditoría y Cumplimiento | Detección temprana y distribución de parches[cite: 1] |
+
+| **Redes & Wi-Fi** | Capa 2 (AP), IPv4, WPA2-AES (mitigación TKIP), *Network Hardening* | Aseguramiento del perímetro y tráfico local[cite: 1] |
+
+
+
+---
+
+
+
+## 📂 Repositorios Destacados (Spider-Labs)
+
+
+
+**🕷️ [`Vulnerability-Management-Nessus`](https://github.com/WAValdez/Vulnerability-Management-Nessus):** Ciclo completo de gestión de vulnerabilidades: identificación con Nessus, *hardening* de Windows Server y verificación de cumplimiento[cite: 1].
+**🛡️ [`Windows-Server-Hardening`](https://github.com/WAValdez/Windows-Server-Hardening):** Implementación de aislamiento de secretos con *Credential Guard* y control de acceso a dispositivos de almacenamiento extraíble mediante GPO[cite: 1].
+**📦 [`Centralized-Patch-Management-WSUS`](https://github.com/WAValdez/Centralized-Patch-Management-WSUS):** Implementación y administración de WSUS para la distribución controlada de actualizaciones de seguridad en entornos corporativos[cite: 1].
+**📡 [`Local-network-hardening-ap`](https://github.com/WAValdez/Local-network-hardening-ap):** Reutilización y *hardening* de una ONT Huawei HG8546M: conversión a Punto de Acceso (AP) en Capa 2, mitigación de conflictos de direccionamiento IPv4 y remediación criptográfica de TKIP a WPA2-AES[cite: 1].
+
+
+---
+
+
+
+## 🎯 Enfoque Actual
+
+
+
+[ ] Seguir documentando laboratorios prácticos de *hardening* y gestión de vulnerabilidades.
+[ ] Automatizar tareas repetitivas de auditoría y administración de sistemas.
+[ ] Ampliar el alcance de monitoreo y defensa en red.
+
+
+---
+
+
+
+## 📫 Contacto (Señal Arácnida)
+
+
+
+💼 LinkedIn: https://www.linkedin.com/in/winder-andrés-valdez-del-orbe-72319333a/
+🌐 Portafolio / Blog: https://github.com/WAValdez
+✉️ Correo: winderavaldez@gmail.com
+
+
+<div align="center">
+
+<sub>Hecho con ☕, terminales y sentido arácnido.</sub>
+
+</div> 
