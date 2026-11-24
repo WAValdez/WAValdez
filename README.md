@@ -13,9 +13,7 @@
 
 
 [![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)](#)
-
 [![Windows & Infra](https://img.shields.io/badge/Focus-Windows%20Server%20%26%20IT-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)](#)
-
 [![Network Hardening](https://img.shields.io/badge/Network-Hardening%20%26%20Patching-DC2626?style=for-the-badge)](#)
 
 
