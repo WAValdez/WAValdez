@@ -5,7 +5,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=DC2626&center=true&vCenter=true&repeat=true&width=760&lines=Spider-Sense+Active%3A+Vulnerability+Management+%26+Hardening;Windows+Server+%2B+GPO+%2B+Credential+Guard;Centralized+Patching+(WSUS)+%26+L2+Network+Defense;Turning+Exposed+Attack+Surfaces+into+Resilient+Systems" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=175&section=header&text=WINDER%20VALDEZ&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Spider-Sec&descAlignY=58&descAlign=50&v=2" width="100%" />
 
 <br>
 
