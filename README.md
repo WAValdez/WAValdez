@@ -2,7 +2,7 @@
 
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=190&section=header&text=Winder%20Valdez&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=IT%20%26%20Cybersecurity%20-%20Hardening%20%26%20Vulnerability%20Management&descSize=16&descAlignY=58" width="100%" alt="Winder Valdez Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F4B,50:7F1D1D,100:B91C1C&height=190&section=header&text=Winder%20Valdez&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=IT%20%26%20Cybersecurity%20%E2%80%A2%20Hardening%20%E2%80%A2%20Vulnerability%20Management&descSize=16&descAlignY=58&animation=fadeIn" width="100%" />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=DC2626&center=true&vCenter=true&width=720&lines=%3E+spider-sense+--status%3A+ACTIVE;Vulnerability+Management+%7C+Nessus;Windows+Server+Hardening+%7C+GPO+%7C+Credential+Guard;Centralized+Patching+%7C+WSUS;Layer+2+%26+Wi-Fi+Defense+%7C+WPA2-AES" alt="Typing SVG" />
@@ -56,7 +56,7 @@ Parcheo centralizado con *WSUS* y aseguramiento de red local, *Capa 2* y Wi-Fi.
 
 ## 🧭 Mi metodología
 
-```mermaid
+mermaid
 flowchart LR
     A[🔍 Identificar<br/>Nessus] --> B[⚖️ Priorizar<br/>Riesgo / CVSS]
     B --> C[🛠️ Remediar<br/>GPO · WSUS · Config]
@@ -67,6 +67,8 @@ flowchart LR
     style B fill:#7F1D1D,stroke:#DC2626,color:#fff
     style C fill:#0B1F4B,stroke:#DC2626,color:#fff
     style D fill:#7F1D1D,stroke:#DC2626,color:#fff
+
+
 ---
 
 ## 🛠️ Arsenal técnico
