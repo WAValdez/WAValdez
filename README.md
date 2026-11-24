@@ -1,37 +1,25 @@
 <div align="center">
 
-
-
 <!-- ================= HEADER ================= -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=175&section=header&text=WINDER%20VALDEZ&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Spider-Sec&descAlignY=58&descAlign=50&v=2" width="100%" />
 
-
 <br>
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=DC2626&center=true&vCenter=true&repeat=true&width=760&lines=Spider-Sense+Active%3A+Vulnerability+Management+%26+Hardening;Windows+Server+%2B+GPO+%2B+Credential+Guard;Centralized+Patching+(WSUS)+%26+L2+Network+Defense;Turning+Exposed+Attack+Surfaces+into+Resilient+Systems)](https://git.io/typing-svg)
 
-
-
 <br>
-
 > *"Un gran acceso conlleva una gran responsabilidad."*
 > **Enfoque dual:** Estabilidad operativa de **TI** + Reducción rigurosa de riesgo en **Ciberseguridad**.
 
 
 <br>
-
-
-
 ![Windows Server](https://img.shields.io/badge/Windows_Server-Hardening_%26_GPO-1E3A8A?style=for-the-badge&logo=windows&logoColor=white)
 ![Nessus](https://img.shields.io/badge/Vulnerability_Mgmt-Nessus-8B0000?style=for-the-badge&logo=shield-alt&logoColor=white)
 ![WSUS](https://img.shields.io/badge/Patch_Control-WSUS-111827?style=for-the-badge)
 ![Network](https://img.shields.io/badge/Network_Security-L2_AP_%26_WPA2--AES-991B1B?style=for-the-badge)
 
-
-
 </div>
----
+
 
 ## 🕸️ Sobre mí (Spider-Bio)
 
