@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================= HEADER ================= -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000&height=175&section=header&text=WINDER%20VALDEZ&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Spider-Sec%20-%20IT%20Infrastructure%20%26%20Defensive%20Engineering&descAlignY=58&descAlign=50" width="100%" alt="Winder Valdez Banner" />
+<img src="./banner.svg" width="100%" alt="Winder Valdez - Spider-Sec Banner" />
 
 <br>
 
