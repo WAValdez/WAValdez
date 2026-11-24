@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🕷️ [Tu Nombre] — Spider-Sec & IT Infrastructure
+# 🕷️ Winder Valdez — Spider-Sec & IT Infrastructure
 
 **Sentido arácnido activado para vulnerabilidades, sistemas Windows y redes.**  
 *"Un gran acceso conlleva una gran responsabilidad."*
@@ -35,10 +35,10 @@ Profesional de **TI y Ciberseguridad** enfocado en reducir la superficie de ataq
 
 ## 📂 Repositorios Destacados (Spider-Labs)
 
-* **🕷️ [`Vulnerability-Management-Nessus`](https://github.com/TU-USUARIO/Vulnerability-Management-Nessus):** Ciclo completo de gestión de vulnerabilidades: identificación con Nessus, *hardening* de Windows Server y verificación de cumplimiento[cite: 1].
-* **🛡️ [`Windows-Server-Hardening`](https://github.com/TU-USUARIO/Windows-Server-Hardening):** Implementación de aislamiento de secretos con *Credential Guard* y control de acceso a dispositivos de almacenamiento extraíble mediante GPO[cite: 1].
-* **📦 [`Centralized-Patch-Management-WSUS`](https://github.com/TU-USUARIO/Centralized-Patch-Management-WSUS):** Implementación y administración de WSUS para la distribución controlada de actualizaciones de seguridad en entornos corporativos[cite: 1].
-* **📡 [`Local-network-hardening-ap`](https://github.com/TU-USUARIO/Local-network-hardening-ap):** Reutilización y *hardening* de una ONT Huawei HG8546M: conversión a Punto de Acceso (AP) en Capa 2, mitigación de conflictos de direccionamiento IPv4 y remediación criptográfica de TKIP a WPA2-AES[cite: 1].
+* **🕷️ [`Vulnerability-Management-Nessus`](https://github.com/WAValdez/Vulnerability-Management-Nessus):** Ciclo completo de gestión de vulnerabilidades: identificación con Nessus, *hardening* de Windows Server y verificación de cumplimiento[cite: 1].
+* **🛡️ [`Windows-Server-Hardening`](https://github.com/WAValdez/Windows-Server-Hardening):** Implementación de aislamiento de secretos con *Credential Guard* y control de acceso a dispositivos de almacenamiento extraíble mediante GPO[cite: 1].
+* **📦 [`Centralized-Patch-Management-WSUS`](https://github.com/WAValdez/Centralized-Patch-Management-WSUS):** Implementación y administración de WSUS para la distribución controlada de actualizaciones de seguridad en entornos corporativos[cite: 1].
+* **📡 [`Local-network-hardening-ap`](https://github.com/WAValdez/Local-network-hardening-ap):** Reutilización y *hardening* de una ONT Huawei HG8546M: conversión a Punto de Acceso (AP) en Capa 2, mitigación de conflictos de direccionamiento IPv4 y remediación criptográfica de TKIP a WPA2-AES[cite: 1].
 
 ---
 
@@ -52,9 +52,9 @@ Profesional de **TI y Ciberseguridad** enfocado en reducir la superficie de ataq
 
 ## 📫 Contacto (Señal Arácnida)
 
-* 💼 LinkedIn: [https://www.linkedin.com/in/winder-andrés-valdez-del-orbe-72319333a/]
-* 🌐 Portafolio / Blog: [https://github.com/WAValdez]
-* ✉️ Correo: [winderavaldez@gmail.com]
+* 💼 LinkedIn: https://www.linkedin.com/in/winder-andrés-valdez-del-orbe-72319333a/
+* 🌐 Portafolio / Blog: https://github.com/WAValdez
+* ✉️ Correo: winderavaldez@gmail.com
 
 <div align="center">
   <sub>Hecho con ☕, terminales y sentido arácnido.</sub>
